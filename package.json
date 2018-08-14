@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "paypal-express-checkout-simple@0.1.2",
+      "/home/dev1/Desktop/Cheapcheap/site"
+    ]
+  ],
+  "_from": "paypal-express-checkout-simple@0.1.2",
+  "_id": "paypal-express-checkout-simple@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-tASyF2OlS/WHaIvTUx+wW4e5d9Y=",
+  "_location": "/paypal-express-checkout-simple",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "paypal-express-checkout-simple@0.1.2",
+    "name": "paypal-express-checkout-simple",
+    "escapedName": "paypal-express-checkout-simple",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/paypal-express-checkout-simple/-/paypal-express-checkout-simple-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "/home/dev1/Desktop/Cheapcheap/site",
+  "author": {
+    "name": "Nebojsa Vislavski"
+  },
+  "bugs": {
+    "url": "https://github.com/visla/paypal-express-checkout/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "cookie-parser": "~1.0.1",
+    "express": "^4.12.3",
+    "node-uuid": "^1.4.3",
+    "serve-favicon": "^2.2.0",
+    "underscore": "^1.8.3"
+  },
+  "description": "Simple implementation of paypal express checkout so you can quickly start using Paypal. Supports only basics to sell items.",
+  "devDependencies": {},
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "homepage": "https://github.com/visla/paypal-express-checkout",
+  "keywords": [
+    "paypal",
+    "express",
+    "checkout"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "paypal-express-checkout-simple",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visla/paypal-express-checkout.git"
+  },
+  "scripts": {
+    "example": "node example/app.js",
+    "test": "mocha test"
+  },
+  "version": "0.1.2"
+}
